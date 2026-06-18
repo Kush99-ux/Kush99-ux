@@ -9,10 +9,10 @@ Engineering Systems • Embedded Intelligence • Applied Research
 <div align="center">
 <table style="border: 1px solid #00C3E3; border-collapse: collapse; background-color: #060C14; font-family: monospace;">
   <tr>
-    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #7DF9FF;"><b>[ LOC ]</b> Gurugram, India</td>
-    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #FFFFFF;"><a href="mailto:kushs0985@gmail.com" style="color: #FFFFFF; text-decoration: none;"><b>[ COMM ]</b> kushs0985@gmail.com</a></td>
-    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #FFFFFF;"><a href="https://github.com/Kush99-ux" style="color: #FFFFFF; text-decoration: none;"><b>[ REPO ]</b> github.com/Kush99-ux</a></td>
-    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #FFFFFF;"><a href="YOUR_LINKEDIN_URL" style="color: #FFFFFF; text-decoration: none;"><b>[ LINK ]</b> LinkedIn Profile</a></td>
+    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #7DF9FF;">📍 <b>Gurugram, India</b></td>
+    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #FFFFFF;"><a href="mailto:kushs0985@gmail.com" style="color: #FFFFFF; text-decoration: none;">✉️ kushs0985@gmail.com</a></td>
+    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #FFFFFF;"><a href="https://github.com/Kush99-ux" style="color: #FFFFFF; text-decoration: none;">💻 github.com/Kush99-ux</a></td>
+    <td style="padding: 8px 16px; border: 1px solid #00C3E3; color: #FFFFFF;"><a href="YOUR_LINKEDIN_URL" style="color: #FFFFFF; text-decoration: none;">🤝 LinkedIn Profile</a></td>
   </tr>
 </table>
 </div>
@@ -52,49 +52,68 @@ Current work combines low-level embedded firmware development, real-time sensor 
 
 ---
 
-## Technical Stack
-*Professional Hardware & Systems Engineering Toolchain*
+## Technical Toolchain Matrix
 
 ### Embedded Systems
-<div align="left">
-  <img src="https://img.shields.io/badge/STM32-0A1424?style=flat-square&logo=stmicroelectronics&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Embedded_C-0A1424?style=flat-square&logo=c&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/UART_Bus-0A1424?style=flat-square&logo=intel&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/I2C_Protocol-0A1424?style=flat-square&logo=nxp&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Sensors-0A1424?style=flat-square&logo=bosch&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/GPS_Telematics-0A1424?style=flat-square&logo=googlemaps&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Bluetooth_LE-0A1424?style=flat-square&logo=bluetooth&logoColor=00C3E3&labelColor=0A1424" height="28"/>
+<div align="center">
+  <table style="border-collapse: collapse; border: none; margin: 10px 0;">
+    <tr>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/STM32-0A1424?style=for-the-badge&logo=stmicroelectronics&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Embedded_C-0A1424?style=for-the-badge&logo=c&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/UART-0A1424?style=for-the-badge&logo=intel&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/I2C-0A1424?style=for-the-badge&logo=nxp&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Sensors-0A1424?style=for-the-badge&logo=bosch&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/GPS-0A1424?style=for-the-badge&logo=googlemaps&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Bluetooth-0A1424?style=for-the-badge&logo=bluetooth&logoColor=00C3E3" height="36"/></a></td>
+    </tr>
+  </table>
 </div>
 
 ### Programming
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-0A1424?style=flat-square&logo=python&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Java_Core-0A1424?style=flat-square&logo=oracle&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/SQL_Relational-0A1424?style=flat-square&logo=postgresql&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/HTML%2FCSS-0A1424?style=flat-square&logo=w3c&logoColor=00C3E3&labelColor=0A1424" height="28"/>
+<div align="center">
+  <table style="border-collapse: collapse; border: none; margin: 10px 0;">
+    <tr>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Python-0A1424?style=for-the-badge&logo=python&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Java-0A1424?style=for-the-badge&logo=oracle&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/SQL-0A1424?style=for-the-badge&logo=postgresql&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/HTML%2FCSS-0A1424?style=for-the-badge&logo=w3c&logoColor=00C3E3" height="36"/></a></td>
+    </tr>
+  </table>
 </div>
 
 ### IoT & Data
-<div align="left">
-  <img src="https://img.shields.io/badge/MQTT_Broker-0A1424?style=flat-square&logo=eclipsefoundation&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Flask-0A1424?style=flat-square&logo=flask&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Pandas-0A1424?style=flat-square&logo=pandas&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Scikit_Learn-0A1424?style=flat-square&logo=scikit-learn&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
+<div align="center">
+  <table style="border-collapse: collapse; border: none; margin: 10px 0;">
+    <tr>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/MQTT-0A1424?style=for-the-badge&logo=eclipsefoundation&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Flask-0A1424?style=for-the-badge&logo=flask&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Pandas-0A1424?style=for-the-badge&logo=pandas&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Scikit_Learn-0A1424?style=for-the-badge&logo=scikit-learn&logoColor=7DF9FF" height="36"/></a></td>
+    </tr>
+  </table>
 </div>
 
 ### Engineering Tools
-<div align="left">
-  <img src="https://img.shields.io/badge/CST_Studio_Suite-0A1424?style=flat-square&logo=dassaultsystemes&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/GitHub_Version-0A1424?style=flat-square&logo=github&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/VS_Code_IDE-0A1424?style=flat-square&logo=visualstudiocode&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Render_Deploy-0A1424?style=flat-square&logo=render&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Apache_NetBeans-0A1424?style=flat-square&logo=apache&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
+<div align="center">
+  <table style="border-collapse: collapse; border: none; margin: 10px 0;">
+    <tr>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/CST_Studio-0A1424?style=for-the-badge&logo=dassaultsystemes&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/GitHub-0A1424?style=for-the-badge&logo=github&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/VS_Code-0A1424?style=for-the-badge&logo=visualstudiocode&logoColor=7DF9FF" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Render-0A1424?style=for-the-badge&logo=render&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/NetBeans-0A1424?style=for-the-badge&logo=apache&logoColor=7DF9FF" height="36"/></a></td>
+    </tr>
+  </table>
 </div>
 
 ### Analytics & Finance
-<div align="left">
-  <img src="https://img.shields.io/badge/Advanced_Excel-0A1424?style=flat-square&logo=microsoftexcel&logoColor=00C3E3&labelColor=0A1424" height="28"/>
-  <img src="https://img.shields.io/badge/Technical_Analysis-0A1424?style=flat-square&logo=tradingview&logoColor=7DF9FF&labelColor=0A1424" height="28"/>
+<div align="center">
+  <table style="border-collapse: collapse; border: none; margin: 10px 0;">
+    <tr>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Excel-0A1424?style=for-the-badge&logo=microsoftexcel&logoColor=00C3E3" height="36"/></a></td>
+      <td style="border: none; padding: 6px;"><a href="#"><img src="https://img.shields.io/badge/Technical_Analysis-0A1424?style=for-the-badge&logo=tradingview&logoColor=7DF9FF" height="36"/></a></td>
+    </tr>
+  </table>
 </div>
 
 ---
