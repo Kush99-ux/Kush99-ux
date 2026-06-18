@@ -59,7 +59,7 @@ Current work combines low-level embedded firmware development, real-time sensor 
           <li>Sensor-fusion array capturing real-time coordinate data and axis vectors.</li>
           <li>Structured communication over bus lines to drive locking mechanisms.</li>
         </ul>
-        <a href="https://github.com/Kush99-ux" style="display: inline-block; background-color: #060C14; border: 1px solid #00C3E3; color: #7DF9FF; padding: 6px 12px; font-family: monospace; font-size: 11px; font-weight: bold; text-decoration: none; border-radius: 4px;">🔬 INITIALIZE_REPO →</a>
+        <a href="https://github.com/Kush99-ux/smart-bicycle-lock-stm32" style="display: inline-block; background-color: #060C14; border: 1px solid #00C3E3; color: #7DF9FF; padding: 6px 12px; font-family: monospace; font-size: 11px; font-weight: bold; text-decoration: none; border-radius: 4px;">🔬 INITIALIZE_REPO →</a>
       </div>
     </td>
     <td width="50%" valign="top" style="border: none; padding: 0 0 16px 8px;">
@@ -80,7 +80,7 @@ Current work combines low-level embedded firmware development, real-time sensor 
           <li>Locked insertion performance boundaries to an optimal ~-3.1 dB.</li>
           <li>Verified high-isolation parameters keeping port metrics matching -24 dB.</li>
         </ul>
-        <a href="https://github.com/Kush99-ux" style="display: inline-block; background-color: #060C14; border: 1px solid #00C3E3; color: #7DF9FF; padding: 6px 12px; font-family: monospace; font-size: 11px; font-weight: bold; text-decoration: none; border-radius: 4px;">📊 ANALYZE_WAVEFORM →</a>
+        <a href="https://github.com/Kush99-ux/Wilkinson-Power-Divider-CST" style="display: inline-block; background-color: #060C14; border: 1px solid #00C3E3; color: #7DF9FF; padding: 6px 12px; font-family: monospace; font-size: 11px; font-weight: bold; text-decoration: none; border-radius: 4px;">📊 ANALYZE_WAVEFORM →</a>
       </div>
     </td>
   </tr>
@@ -100,7 +100,7 @@ Current work combines low-level embedded firmware development, real-time sensor 
         <p style="font-size: 12.5px; color: #FFFFFF; opacity: 0.85; line-height: 1.6; margin: 0 0 12px 0;">
           Predictive data processing architecture mapping structural skill features to probability metrics, achieving an validation R² score of 0.867. Implemented clean modular preprocessing routines to manage high-cardinality vectors across diverse occupation domains.
         </p>
-        <a href="https://github.com/Kush99-ux" style="display: inline-block; background-color: #060C14; border: 1px solid #00C3E3; color: #7DF9FF; padding: 6px 12px; font-family: monospace; font-size: 11px; font-weight: bold; text-decoration: none; border-radius: 4px;">🖥️ EXECUTE_MODEL →</a>
+        <a href="https://ai-impact-on-jobs.onrender.com/" style="display: inline-block; background-color: #060C14; border: 1px solid #00C3E3; color: #7DF9FF; padding: 6px 12px; font-family: monospace; font-size: 11px; font-weight: bold; text-decoration: none; border-radius: 4px;">🖥️ EXECUTE_MODEL →</a>
       </div>
     </td>
   </tr>
