@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300">
+
+<rect width="1200" height="300" fill="#0A223D"/>
+
+<text
+x="600"
+y="130"
+text-anchor="middle"
+fill="#00D4FF"
+font-size="50">
+
+KUSH SAHU
+
+</text>
+
+<text
+x="600"
+y="200"
+text-anchor="middle"
+fill="white"
+font-size="24">
+
+Embedded Systems • RF Engineering • Signal Processing
+
+</text>
+
+</svg>
