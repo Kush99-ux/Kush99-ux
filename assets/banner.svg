@@ -1,27 +1,196 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img">
+<title>Kush Sahu — Embedded Systems &amp; IoT Architecture Engineering Banner</title>
+<desc>High-end technical dashboard profile banner for Kush Sahu, ECE Student focusing on Embedded Systems, Applied Signal Processing, and IoT Infrastructure.</desc>
 
-<rect width="1200" height="300" fill="#0A223D"/>
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#060C14;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#0A1626;stop-opacity:1"/>
+  </linearGradient>
 
-<text
-x="600"
-y="130"
-text-anchor="middle"
-fill="#00D4FF"
-font-size="50">
+  <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#00C3E3;stop-opacity:0"/>
+    <stop offset="50%" style="stop-color:#00C3E3;stop-opacity:0.4"/>
+    <stop offset="100%" style="stop-color:#00C3E3;stop-opacity:0"/>
+  </linearGradient>
 
-KUSH SAHU
+  <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+    <path d="M2 2L8 5L2 8" fill="none" stroke="#00C3E3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
 
-</text>
+<rect width="1200" height="320" fill="url(#bgGrad)"/>
 
-<text
-x="600"
-y="200"
-text-anchor="middle"
-fill="white"
-font-size="24">
+<g opacity="0.04" stroke="#00C3E3" stroke-width="0.5">
+  <line x1="0" y1="40" x2="1200" y2="40"/>
+  <line x1="0" y1="80" x2="1200" y2="80"/>
+  <line x1="0" y1="120" x2="1200" y2="120"/>
+  <line x1="0" y1="160" x2="1200" y2="160"/>
+  <line x1="0" y1="200" x2="1200" y2="200"/>
+  <line x1="0" y1="240" x2="1200" y2="240"/>
+  <line x1="0" y1="280" x2="1200" y2="280"/>
+  <line x1="60" y1="0" x2="60" y2="320"/>
+  <line x1="120" y1="0" x2="120" y2="320"/>
+  <line x1="180" y1="0" x2="180" y2="320"/>
+  <line x1="240" y1="0" x2="240" y2="320"/>
+  <line x1="300" y1="0" x2="300" y2="320"/>
+  <line x1="900" y1="0" x2="900" y2="320"/>
+  <line x1="960" y1="0" x2="960" y2="320"/>
+  <line x1="1020" y1="0" x2="1020" y2="320"/>
+  <line x1="1080" y1="0" x2="1080" y2="320"/>
+  <line x1="1140" y1="0" x2="1140" y2="320"/>
+</g>
 
-Embedded Systems • RF Engineering • Signal Processing
+<g opacity="0.02" stroke="#00C3E3" stroke-width="1" fill="none">
+  <circle cx="200" cy="100" r="50"/>
+  <circle cx="1000" cy="220" r="45"/>
+</g>
 
-</text>
+<g id="leftPipeline">
+  <rect x="28" y="48" width="84" height="34" rx="3" fill="none" stroke="#00C3E3" stroke-width="1" opacity="0.4"/>
+  <text x="70" y="61" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">MPU6050</text>
+  <text x="70" y="72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7" fill="#00C3E3" opacity="0.6">IMU SENSOR</text>
+  <circle cx="104" cy="56" r="1.5" fill="#7DF9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="1.2s" repeatCount="indefinite" />
+  </circle>
 
+  <rect x="28" y="104" width="84" height="34" rx="3" fill="none" stroke="#00C3E3" stroke-width="1" opacity="0.4"/>
+  <text x="70" y="117" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">GPS</text>
+  <text x="70" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7" fill="#00C3E3" opacity="0.6">NMEA / UART</text>
+  <circle cx="104" cy="112" r="1.5" fill="#7DF9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" repeatCount="indefinite" />
+  </circle>
+
+  <rect x="28" y="160" width="84" height="34" rx="3" fill="none" stroke="#00C3E3" stroke-width="1" opacity="0.4"/>
+  <text x="70" y="173" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">BT MODULE</text>
+  <text x="70" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7" fill="#00C3E3" opacity="0.6">HC-05 / GATT</text>
+  <circle cx="104" cy="168" r="1.5" fill="#7DF9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="0.9s" repeatCount="indefinite" />
+  </circle>
+
+  <line x1="70" y1="82" x2="70" y2="104" stroke="#00C3E3" stroke-width="0.75" opacity="0.3"/>
+  <line x1="70" y1="138" x2="70" y2="160" stroke="#00C3E3" stroke-width="0.75" opacity="0.3"/>
+
+  <rect x="14" y="218" width="112" height="50" rx="4" fill="#0A182B" stroke="#00C3E3" stroke-width="1" opacity="0.9"/>
+  <text x="70" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" fill="#7DF9FF" font-weight="700">STM32F303RE</text>
+  <text x="70" y="246" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7" fill="#00C3E3" opacity="0.8">CORTEX-M4 @ 72MHz</text>
+  <text x="70" y="257" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6.5" fill="#00C3E3" opacity="0.55">I2C · UART · SPI · ADC</text>
+  
+  <text x="114" y="230" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6" fill="#7DF9FF" font-weight="bold">CLK</text>
+  <circle cx="118" cy="234" r="1.5" fill="#00C3E3">
+    <animate attributeName="fill" values="#00C3E3;#7DF9FF;#00C3E3" dur="0.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <line x1="70" y1="194" x2="70" y2="218" stroke="#00C3E3" stroke-width="1" marker-end="url(#arrowCyan)" opacity="0.6"/>
+
+  <rect x="28" y="284" width="84" height="28" rx="3" fill="none" stroke="#7DF9FF" stroke-width="0.75" opacity="0.3"/>
+  <text x="70" y="295" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7.5" fill="#7DF9FF" opacity="0.7">SIGNAL PROC</text>
+  <text x="70" y="304" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6.5" fill="#00C3E3" opacity="0.5">FFT · FILTER · FSM</text>
+
+  <line x1="70" y1="268" x2="70" y2="284" stroke="#7DF9FF" stroke-width="0.75" marker-end="url(#arrowCyan)" opacity="0.4"/>
+</g>
+
+<g id="logicBusPackets" opacity="0.45" stroke="#7DF9FF" stroke-width="1" fill="none">
+  <path d="M124 236 L144 236 L144 165 L164 165">
+    <animate attributeName="stroke-dasharray" values="0, 40; 40, 0; 0, 40" dur="3s" repeatCount="indefinite" />
+  </path>
+  <path d="M124 246 L148 246 L148 275 L164 275">
+    <animate attributeName="stroke-dasharray" values="40, 0; 0, 40; 40, 0" dur="2.5s" repeatCount="indefinite" />
+  </path>
+</g>
+
+<g opacity="0.25" stroke="#00C3E3" stroke-width="1" fill="none">
+  <path d="M 5,60 L 12,60 L 12,72 L 18,72 L 18,60 L 24,60">
+    <animate attributeName="stroke-dasharray" values="0,30; 30,0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 5,120 L 10,120 L 10,132 L 16,132 L 16,120 L 24,120">
+    <animate attributeName="stroke-dasharray" values="15,15; 0,30" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<g id="centerContent">
+  <text x="600" y="84" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="9" fill="#FFFFFF">KUSH SAHU</text>
+
+  <line x1="390" y1="98" x2="515" y2="98" stroke="#00C3E3" stroke-width="0.75" opacity="0.3"/>
+  <line x1="685" y1="98" x2="810" y2="98" stroke="#00C3E3" stroke-width="0.75" opacity="0.3"/>
+  <circle cx="515" cy="98" r="2" fill="#00C3E3" opacity="0.5"/>
+  <circle cx="685" cy="98" r="2" fill="#00C3E3" opacity="0.5"/>
+
+  <text x="600" y="124" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#7DF9FF" letter-spacing="5" opacity="0.95">ELECTRICAL &amp; COMPUTER ENGINEERING</text>
+
+  <line x1="390" y1="144" x2="810" y2="144" stroke="#00C3E3" stroke-width="0.5" opacity="0.2"/>
+  <text x="600" y="164" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500" fill="#FFFFFF" letter-spacing="3" opacity="0.85">EMBEDDED SYSTEMS  ·  INTELLIGENT SENSING  ·  IoT ARCHITECTURE</text>
+  <line x1="390" y1="176" x2="810" y2="176" stroke="#00C3E3" stroke-width="0.5" opacity="0.2"/>
+
+  <text x="600" y="198" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#FFFFFF" opacity="0.5" letter-spacing="1.5">Shiv Nadar University  ·  B.Tech ECE  ·  2024–2028</text>
+
+  <g id="projectBadges">
+    <rect x="385" y="218" width="138" height="36" rx="4" fill="#081424" stroke="#00C3E3" stroke-width="0.75" opacity="0.9"/>
+    <text x="454" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">Smart Bicycle Lock</text>
+    <text x="454" y="244" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6.5" fill="#00C3E3" opacity="0.7">STM32 · BLE · GPS · IMU</text>
+
+    <rect x="531" y="218" width="138" height="36" rx="4" fill="#081424" stroke="#00C3E3" stroke-width="0.75" opacity="0.9"/>
+    <text x="600" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">Wilkinson Divider</text>
+    <text x="600" y="244" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6.5" fill="#00C3E3" opacity="0.7">2.4GHz · CST Studio Suite</text>
+
+    <rect x="677" y="218" width="138" height="36" rx="4" fill="#081424" stroke="#00C3E3" stroke-width="0.75" opacity="0.9"/>
+    <text x="746" y="233" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">VVDN Technologies</text>
+    <text x="746" y="244" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6.5" fill="#00C3E3" opacity="0.7">Hardware Engineering Assoc</text>
+  </g>
+
+  <rect x="385" y="268" width="430" height="26" rx="3" fill="#040912" stroke="#00C3E3" stroke-width="0.5" opacity="0.8"/>
+  <text x="600" y="284" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8" fill="#7DF9FF" font-weight="500" letter-spacing="1">firmware_init() ... stacks loaded successfully [FreeRTOS, MQTT, BLE]</text>
+</g>
+
+<g id="rfWaveform" opacity="0.4">
+  <text x="600" y="312" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7.5" fill="#00C3E3" letter-spacing="1.5">Target Portfolio: Embedded Core Ecosystem Architecture &amp; Industrial Internet of Things [IIoT]</text>
+</g>
+
+<g id="rightPipeline">
+  <text x="968" y="46" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8" fill="#00C3E3" opacity="0.5" letter-spacing="2">DEVELOPMENT CORE</text>
+
+  <rect x="916" y="58" width="104" height="34" rx="3" fill="#081424" stroke="#00C3E3" stroke-width="0.75" opacity="0.8"/>
+  <text x="968" y="71" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">IoT SYSTEMS</text>
+  <text x="968" y="82" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7" fill="#00C3E3" opacity="0.6">6LoWPAN · Mesh · Protocols</text>
+
+  <line x1="968" y1="92" x2="968" y2="110" stroke="#00C3E3" stroke-width="0.75" marker-end="url(#arrowCyan)" opacity="0.5"/>
+
+  <rect x="916" y="110" width="104" height="34" rx="3" fill="#081424" stroke="#00C3E3" stroke-width="0.75" opacity="0.8"/>
+  <text x="968" y="123" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">EDGE ANALYSIS</text>
+  <text x="968" y="134" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7" fill="#00C3E3" opacity="0.6">DSP · CMSIS-DSP · Filters</text>
+
+  <line x1="1020" y1="127" x2="1036" y2="127" stroke="#00C3E3" stroke-width="0.5" opacity="0.5"/>
+
+  <line x1="968" y1="144" x2="968" y2="162" stroke="#00C3E3" stroke-width="0.75" marker-end="url(#arrowCyan)" opacity="0.5"/>
+
+  <rect x="916" y="162" width="104" height="34" rx="3" fill="#081424" stroke="#00C3E3" stroke-width="0.75" opacity="0.8"/>
+  <text x="968" y="175" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" font-weight="600">RTOS DESIGN</text>
+  <text x="968" y="186" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="6.5" fill="#00C3E3" opacity="0.7">Concurrency · Scheduling</text>
+
+  <line x1="968" y1="196" x2="968" y2="214" stroke="#00C3E3" stroke-width="0.75" marker-end="url(#arrowCyan)" opacity="0.5"/>
+
+  <rect x="898" y="214" width="140" height="54" rx="4" fill="#0A182B" stroke="#00C3E3" stroke-width="1" opacity="0.9"/>
+  <text x="968" y="229" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" fill="#7DF9FF" font-weight="700" letter-spacing="0.5">ENGINEERING FOCUS</text>
+  <text x="968" y="247" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8.5" fill="#7DF9FF" opacity="0.95">IoT Systems Architecture</text>
+
+  <line x1="1038" y1="241" x2="1062" y2="241" stroke="#00C3E3" stroke-width="0.75" opacity="0.2"/>
+  <line x1="898" y1="241" x2="874" y2="241" stroke="#00C3E3" stroke-width="0.75" opacity="0.2"/>
+</g>
+
+<g id="tracePulseH">
+  <rect x="0" y="160" width="120" height="1" fill="url(#pulseGrad)" opacity="0.4">
+    <animate attributeName="x" values="-120;1200" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<g id="oscScope" opacity="0.4">
+  <rect x="1064" y="90" width="112" height="54" rx="3" fill="#040912" stroke="#00C3E3" stroke-width="0.75"/>
+  <line x1="1064" y1="117" x2="1176" y2="117" stroke="#00C3E3" stroke-width="0.25" stroke-dasharray="2,2"/>
+  <line x1="1120" y1="90" x2="1120" y2="144" stroke="#00C3E3" stroke-width="0.25" stroke-dasharray="2,2"/>
+  <path d="M1064 117 Q1078 95 1092 117 T1120 117 T1148 117 T1176 117" fill="none" stroke="#7DF9FF" stroke-width="1">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -28,0" dur="1.5s" repeatCount="indefinite" />
+  </path>
+</g>
+
+<text x="968" y="302" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="8" fill="#00C3E3" opacity="0.5">@ SNU · Gurugram, India</text>
 </svg>
