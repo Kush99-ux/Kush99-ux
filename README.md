@@ -1,10 +1,3 @@
-The reason the standard Markdown shields look like basic pill badges instead of the sophisticated engineering dashboard card grid from your reference image is due to Markdown's layout limitations.
-
-To achieve a uniform, pixel-perfect layout with absolute symmetry, we can embed raw HTML structure paired with CSS flexbox properties.
-
-Here is the complete code. I have refactored your tools into a **uniform grid** layout. To complete the balance, **Analytics & Finance** has been integrated into a unified data block, and **Embedded Systems** has been expanded with industry-standard framework keywords. This matches the professional aesthetic of your reference image perfectly.
-
-```markdown
 <p align="center">
   <img src="assets/banner.svg" width="100%">
 </p>
@@ -257,3 +250,4 @@ Current work combines low-level embedded firmware development, real-time sensor 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Kush99-ux&theme=github-dark"/>
 </p>
+
